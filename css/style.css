@@ -1,0 +1,85 @@
+/* --------------------------------------------------bootstrap icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* --------------------------------topbar start------------ */
+#topbar {
+    background: #1bbcc2;
+    color: #fff;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+#topbar.topbar-scrolled {
+    top: -50px;
+}
+
+#topbar i {
+    padding-right: 6px;
+}
+/* ------------------------------------------topbar end----------------------------------------------- */
+
+
+/* ------------------------------------------navbar start ---------------------------------------------*/
+.signup-login div a i{
+    font-size: 30px;
+    margin-right: 20px;
+    color: #3fbbc0;;
+
+}
+.nav-bar{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.nav-link{
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    color: brown !important;
+}
+ .btn_get_started {
+     font-weight: 500;
+     font-size: 14px;
+     letter-spacing: 1px;
+     display: inline-block;
+     padding: 5px 15px;
+     border-radius: 50px;
+     margin:10px;
+     border: 1px solid #3fbbc0;
+     background-color: transparent;
+     color: blue;
+     text-decoration: none;
+ }
+
+ .btn_get_started:hover {
+     background-color: #3fbbc0;
+     border: 1px solid #040505;
+     color: #fff;
+ }
+ /* ------------------------------------------navbar end ---------------------------------------------*/
+
+
+ /* -----------------------------------------------banner section start------------------------------------ */
+ .banner-section img{
+    height: 346px;
+    max-width: 100%;
+    margin-top: 40px;
+ }
+
+.feature-section > div >div img{
+    height: 200px;
+    width: 200px;
+}
+.feature-section > div >div h4{
+    font-size: 16px;
+    font-weight: 700;
+}
